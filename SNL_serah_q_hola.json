@@ -6,12 +6,12 @@
 	"unblocker_rules": {
 		"SNL": {
 			"description": "watch SNL episode",
-			"link": "http://nocache-secure.nbc.com/saturday-night-live/video/may-4-zach-galifianakis/n36362/",
+			"link": "http://www.nbc.com/saturday-night-live/video/may-4---zach-galifianakis/n36362/",
 			"icon": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9oydqRdjhhulh8U8lxSr9FFnrD18GgR3xdl-phFm3MWXHzkjYJg",
 			"os": ["windows"],
 			"cmds": [
 				{
-					"hosts": ["maxmind.com"],
+					"hosts": ["www.nbc.com"],
 					"dst_dns": "true",
 					"then": "PROXY US"
 				}
